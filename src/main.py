@@ -1,4 +1,8 @@
-from typing import List, Dict, Union, Optional
+from typing import TypedDict
+
+class Student(TypedDict):
+    alter: int
+    noten: list[float]
 
 
 def berechne_durchschnitt(noten):
